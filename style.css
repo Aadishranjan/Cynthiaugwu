@@ -76,7 +76,6 @@ html,body{
   width: 100%;
   background-color: black; 
   color: #fff;
-  overflow: hidden;
 }
 #page1{
   height: 100vh;
