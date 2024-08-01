@@ -197,7 +197,7 @@ html,body{
 .elemlast{
   border-bottom: 1px solid #888;
 }
-.elem img{
+.elemimg{
   height: 140%;
   z-index: 999;
   position: absolute;
