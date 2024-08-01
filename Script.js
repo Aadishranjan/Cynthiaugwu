@@ -76,6 +76,22 @@ const time = () => {
   document.querySelector(".timeforweb").innerHTML = `${hours}:${minutes} ${ampm} EST`
 }
 
+function forceDesktopView() {
+  var viewportMeta = document.querySelector('meta[name="viewport"]');
+  if (viewportMeta) {
+    viewportMeta.setAttribute('content', 'width=1024'); // Set the desired desktop width
+  } else {
+    viewportMeta = document.createElement('meta');
+    viewportMeta.name = "viewport";
+    viewportMeta.content = "width=1024"; // Set the desired desktop width
+    document.getElementsByTagName('head')[0].appendChild(viewportMeta);
+ }
+}
+        
+document.addEventListener("DOMContentLoaded", function() {
+  forceDesktopView();
+        });
+
 firstPageAnim()
 mouseeffect()
 imganimation()
