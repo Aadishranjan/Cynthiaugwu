@@ -22,4 +22,4 @@ You can view the cloned website [here](https://aadishranjan.github.io/Cynthiaugw
 <li>Original website: <a href="https://cynthiaugwu.com/">Cynthia Ugwu</a></li>
 </ul>
 
-Feel free to customize and enhance this clone as you explore Cynthia’s design techniques! I just have give a try to clone its some of design 🌟 
+Feel free to customize and enhance this clone as you explore Cynthia’s design techniques! I just have give a try to clone its some of design 🌟
